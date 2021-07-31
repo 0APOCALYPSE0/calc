@@ -38,6 +38,22 @@ class Math {
         return num;
     }
 
+    static sqr(num){
+        return num*num;
+    }
+
+    static cub(num){
+        return num*num*num;
+    }
+
+    static pow(base, exp){
+        let res=1;
+        while(exp--){
+            res*=base;
+        }
+        return res;
+    }
+
 }
 
 // Export to make the function available to other packages

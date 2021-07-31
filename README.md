@@ -9,7 +9,9 @@ All availables methods list:
    - abs
    - isNullOrEmpty
    - mod
-
+   - sqr
+   - cub
+   - pow
 
 adding more methods>
 
@@ -19,7 +21,7 @@ Install the package using npm :
 
 Then, require the package and use it:
  [Comment: To check if this usage is proper]
- var math = require('Math');
+ var math = require('aio-calc');
  console.log(math.isNullOrEmpty("")); // true
  console.log(math.isNullOrEmpty("Hello World")); // false
 
