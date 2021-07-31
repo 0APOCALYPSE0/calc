@@ -12,6 +12,8 @@ All availables methods list:
    - sqr
    - cub
    - pow
+   - max
+   - min
 
 adding more methods>
 
@@ -25,9 +27,9 @@ Then, require the package and use it:
  console.log(math.isNullOrEmpty("")); // true
  console.log(math.isNullOrEmpty("Hello World")); // false
 
- console.log(math.add(2,2)); // 4
- console.log(math.add(2,2,2,5)); // 11
+ console.log(math.add(2,2)); // 4 \
+ console.log(math.add(2,2,2,5)); // 11 \
 
- console.log(math.sub(2,1)); //1
- console.log(math.abs(-20)); // 20
- console.log(math.abs(20)); //20
+ console.log(math.sub(2,1)); //1 \
+ console.log(math.abs(-20)); // 20 \
+ console.log(math.abs(20)); //20 \

@@ -18,7 +18,7 @@ class Math {
     }
 
     static multi(...args){
-        let res=0;
+        let res=1;
         args.forEach(num => res*=num);
         return res;
     }
@@ -51,6 +51,26 @@ class Math {
         while(exp--){
             res*=base;
         }
+        return res;
+    }
+
+    static max(...args){
+        let res = args[0];
+        args.forEach(num => {
+            if(num > res){
+                res = num;
+            }
+        })
+        return res;
+    }
+
+    static min(...args){
+        let res = args[0];
+        args.forEach(num => {
+            if(num < res){
+                res = num;
+            }
+        })
         return res;
     }
 
