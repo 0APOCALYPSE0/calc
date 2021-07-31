@@ -1,0 +1,22 @@
+{
+  "name": "aio-calc",
+  "version": "1.0.0",
+  "description": "This package contains all the methods for solving mathematical problems.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "calc",
+    "aio-calc",
+    "calculator",
+    "math",
+    "mathematical",
+    "calculation"
+  ],
+  "author": "aakash giri",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {}
+}
