@@ -1,6 +1,6 @@
 {
   "name": "aio-calc",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This package contains all the methods for solving mathematical problems.",
   "main": "index.js",
   "scripts": {
